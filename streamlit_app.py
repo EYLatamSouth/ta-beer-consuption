@@ -71,7 +71,7 @@ numerical = ['Temperatura Media (C)', 'Temperatura Minima (C)', 'Temperatura Max
              'Precipitacao (mm)', 'Final de Semana']
 
 atributes_numerical = st.multiselect(
-    'Atributos Numéricos Selecionados', numerical, numerical)
+    'Atributos Numéricos Selecionados', numerical, ['Temperatura Maxima (C)', 'Precipitacao (mm)', 'Final de Semana'])
 
 
 # Store the numerical features to a dataframe attrition_num
