@@ -31,7 +31,7 @@ Os dados são reais.
 
 '''
 
-df_beer = pd.read_csv("Consumo_cerveja.csv", decimal=",", thousands=".")
+df_beer = pd.read_csv("data/Consumo_cerveja.csv", decimal=",", thousands=".")
 df_beer
 
 
